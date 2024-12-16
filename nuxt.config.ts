@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
   devtools: { enabled: true },
-  modules: ['@pinia/nuxt', '@nuxt/eslint', '@nuxt/image'],
+  modules: ['@pinia/nuxt', '@nuxt/eslint', '@nuxt/image', '@nuxt/test-utils/module'],
   routeRules: {
     '/': { redirect: '/cocktails/margarita' },
   },
